@@ -1,0 +1,8 @@
+{
+  "generator-jhipster:7.9.3": {
+    "promptValues": {
+      "packageName": "rocks.zipcode.gg_tarot_go",
+      "nativeLanguage": "en"
+    }
+  }
+}
