@@ -1,0 +1,35 @@
+application {
+    config {
+        baseName GG_Tarot_Go,
+        packageName rocks.zipcode.gg_tarot_go
+        applicationType monolith
+        prodDatabaseType mysql
+    }
+    entities *
+}
+entity Card {
+    name String
+    imageURL String
+    description String
+}
+
+//entity Search {
+  //  searchId Integer required,
+    //query String required,
+//}
+//relationship ManyToOne{
+//Search{card} to Card
+//}
+
+//entity Reading {
+//    readingId Integer required,
+//    readingType ReadingType,
+//}
+//relationship OneToMany{
+//Reading{cards} to Card
+//}
+
+//enum ReadingType {
+//    ONE_CARD, THREE_CARD
+//}
+

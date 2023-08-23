@@ -48,6 +48,7 @@ public class CacheConfiguration {
             createCache(cm, rocks.zipcode.gg_tarot_go.domain.User.class.getName());
             createCache(cm, rocks.zipcode.gg_tarot_go.domain.Authority.class.getName());
             createCache(cm, rocks.zipcode.gg_tarot_go.domain.User.class.getName() + ".authorities");
+            createCache(cm, rocks.zipcode.gg_tarot_go.domain.Card.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

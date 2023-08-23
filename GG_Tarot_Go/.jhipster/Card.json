@@ -1,0 +1,28 @@
+{
+  "applications": ["GG_Tarot_Go"],
+  "changelogDate": "20230822210809",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "card",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "imageURL",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Card",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}
