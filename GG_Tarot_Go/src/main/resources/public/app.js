@@ -92,14 +92,16 @@ function showCardDetail(post) {
     let li = document.createElement('div');
     let title = document.createElement('h2');
     let body = document.createElement('p');
-    // let by = document.createElement('p');
+    let image = document.createElement('img');
     title.innerHTML = `${post.name}`;
     body.innerHTML = `${post.description}`;
-
+    image.src = `${post.imageURL}`;
+    image.alt = `${post.name}`;
+    // image.width = `200`;
 
     li.appendChild(title);
     li.appendChild(body);
-    // li.appendChild(by);
+    li.appendChild(image);
     detail.appendChild(li);
 
     ul.appendChild(detail);
