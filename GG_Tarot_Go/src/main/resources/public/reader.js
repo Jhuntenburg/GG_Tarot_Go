@@ -33,16 +33,19 @@ function showCardDetail(post, cardIdNumber) {
   let li = document.createElement('div');
   let title = document.createElement('h2');
   let body = document.createElement('p');
+  let imageDivTag = document.createElement('div');
   let image = document.createElement('img');
   title.innerHTML = `${post.name}`;
   body.innerHTML = `${post.description}`;
   image.src = `${post.imageURL}`;
   image.alt = `${post.name}`;
+  imageDivTag.style.textAlign='center';
   // image.width = `200`;
 
+  imageDivTag.appendChild(image);
   li.appendChild(title);
   li.appendChild(body);
-  li.appendChild(image);
+  li.appendChild(imageDivTag);
   detail.appendChild(li);
 
   ul.appendChild(detail);

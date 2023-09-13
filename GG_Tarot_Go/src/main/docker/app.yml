@@ -19,6 +19,7 @@ services:
     # volumes:
     #   - ~/volumes/jhipster/GG_Tarot_Go/mysql/:/var/lib/mysql/
     volumes:
+      -   /Users/Joe/Desktop/export.sql:/docker-entrypoint-initdb.d/populate.sql
       - ./config/mysql:/etc/mysql/conf.d
     environment:
       - MYSQL_ALLOW_EMPTY_PASSWORD=yes

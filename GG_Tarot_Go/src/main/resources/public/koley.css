@@ -9,11 +9,12 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 30%;
 }
 
 a {
     color: #2e8acc;
+
 }
 
 h1,
